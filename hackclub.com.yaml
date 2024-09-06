@@ -184,7 +184,7 @@ _h323cs._tcp.px:
       priority: 50
       target: loke2.vp.vc.
       weight: 100
-jchs:
+johnscreekhighschool:
   - ttl: 600
     type: CNAME
     value: https://dxnn-s.github.io/JCHS-Hack-Club/.
