@@ -129,6 +129,10 @@ _dmarc:
   ttl: 600
   type: TXT
   value: v=DMARC1\; p=quarantine\; rua=mailto:6192c543e0e61@ag.dmarcly.com\; ruf=mailto:6192c543e0e61@fo.dmarcly.com\; fo=1\;
+_gh-arsenobetaine-o:
+  - ttl: 600
+    type: TXT
+    value: cea65ff579
 _gh-arsenobetaine-o.arsenic:
   - ttl: 600
     type: TXT
@@ -168,6 +172,10 @@ _github-challenge-rahs-hackclub.rahs:
   - ttl: 600
     type: TXT
     value: f43a54836a
+_github-pages-challenge-arsenobetaine.arsenic:
+  - ttl: 600
+    type: TXT
+    value: e46c397c5bd751389a024480dbb07b
 _github-pages-challenge-cghs-hackclub.cghs:
   - ttl: 7200
     type: TXT
@@ -268,6 +276,7 @@ _vercel:
   ttl: 600
   type: TXT
   values:
+    - vc-domain-verify=ocsa.hackclub.com,642a8568483f6bd767a9
     - vc-domain-verify=forge.hackclub.com,9dbbce561a571cab8a3b
     - vc-domain-verify=saleh.hackclub.com,cdcc382c0ddbefe586b1
     - vc-domain-verify=gaynormccown.hackclub.com,32e375ae13476a9653b9
@@ -1150,6 +1159,10 @@ f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc._domainkey.epochvt:
   ttl: 600
   type: CNAME
   value: f5qsmeu4qwef4yvo2p6e4a4vrspzdqdc.dkim.amazonses.com.
+fa:
+  - ttl: 1
+    type: CNAME
+    value: cname.vercel-dns.com.
 feed.assemble:
   - ttl: 600
     type: CNAME
@@ -1503,6 +1516,9 @@ hub.zephyr:
 ia:
   type: CNAME
   value: cname.vercel-dns.com.
+ice:
+  - type: CNAME
+    value: hackclub.github.io.
 icons:
   ttl: 600
   type: CNAME
@@ -1983,7 +1999,7 @@ ocsa:
         preference: 10
   - ttl: 600
     type: ALIAS
-    value: uhegg.github.io.
+    value: cname.vercel-dns.com.
   
 
 
@@ -2014,6 +2030,10 @@ oneditor:
   - ttl: 600
     type: CNAME
     value: oneditor.netlify.app.
+op:
+  - ttl: 600
+    type: CNAME
+    value: kayla.hackclub.app.
 orpheushacks: # Harrison Katz automatically wins for adding the DNS entry - thats how it works, right?
   - ttl: 600
     type: CNAME
@@ -2086,6 +2106,10 @@ pic._domainkey.mail:
   ttl: 600
   type: TXT
   value: k=rsa
+pinetree:
+  - ttl: 600
+    type: CNAME
+    value: tensixxx.github.io.
 piobfpwf42smbkxcysnrx7qe5es6f5tp._domainkey:
   ttl: 600
   type: CNAME
